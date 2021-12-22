@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Exchange Book</title>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" href="../Css/style.css" type="text/css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="../fontawesome/css/all.min.css">
+   <link rel="stylesheet" type="text/css" href="../Css/media.css">
+   <link rel="stylesheet" type="text/css" href="../Css/ExchangeBook.css">
+<!-- Put this script tag to the <head> of your page -->
+<script type="text/javascript" src="https://vk.com/js/api/openapi.js?168"></script>
+
+<script type="text/javascript">
+  VK.init({apiId: 7462309, onlyWidgets: true});
+</script>
+</head>
+<body>
+
+	 <div id="header">
+      <div id="logo">
+	  <img src="../img/undraw_book_lover_mkck.svg" id="logoItem"> 
+      <span>OnBook</span>
+	  </div>
+	  <div id="clear1"></div>
+	  <div id="reg">
+	  <button class="reg" id="login">Log In</button>
+	  <button class="reg" id="register">Register</button>
+    <div class="logAccount none">
+          <i class="fas fa-user"></i>
+          <h1 class="accountName"></h1>    
+    </div>
+
+	  </div>
+	  <div id="clear2"></div>
+	  <div class="search">
+	  <input type="text" placeholder="search" id="search">
+	  <img src="../img/search.png" alt="search" id="searchBtn">
+	  </div>
+    <div class="accountMenu none">
+        <ul>
+          <li>aibolotar@mail.ru</li>
+          <li>bookmarks</li>
+          <li><a href="" class="logOut"><i class="fas fa-sign-out-alt"></i>Log Out</a></li>
+        </ul>
+      </div>
+	</div>
+    <div id="list"></div>
+
+     <div id="ExchangeWaalpapper">
+     	<div id="ConExch">
+    <h1>Can you Share with the best?</h1>
+    <p>Here you can exchange your book, as well as share your<br>books with the world.<br>
+    Exchange the book online from the comfort of your home,<br>or find a user who will exchange<br> the book for yours.
+    </p>
+     <div id="BTN">
+   <button><a href="https://chat.whatsapp.com/DpLDkmyBEAi3DjVrWpCAIe">LIVE Exchange</a></button>
+   <button><a href="https://chat.whatsapp.com/EhVsg9f3OQL9eY4Ncmnh15">Online Exchange</a></button></div>
+
+   <div id="BAN">
+   <button><a href="../Onlinelibrary.html"> Home page</a></button></div>
+
+  </div>
+       <img src="../img/Exchange.svg">
+
+     </div>
+<br>
+
+
+
+<!-- Put this div tag to the place, where the Comments block will be -->
+<div id="vk_comments"></div>
+<script type="text/javascript">
+VK.Widgets.Comments("vk_comments", {limit: 10, attach: "*"});
+</script>
+
+
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC71Wk-uX1vje2AwHIG5GauZD5eYn1C1dA&callback=initMap" async defer></script>
+<script src="../JS/jQuery.js"></script>
+<script src="../JS/script.js"></script>
+</body>
+</html>
